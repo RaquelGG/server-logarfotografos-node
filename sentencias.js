@@ -1,31 +1,29 @@
 const conexion = require("./conexion")
+import * as conexion from "./conexion"
 
-module.exports = {
-    // Obtener imagenes de una boda
-    obtenerUrl(id_boda) {
-        return new Promise((resolve, reject) => {
-            conexion.query('select url from Fotos where id_boda = ?',
-                [id],
-                (err, resultados) => {
-                    console.log({resultados});
-                    if (err) reject(err);
-                    else resolve(resultados[0]);
-                });
-        });
-    },
+    /*// Obtener imagenes de una boda
+    async function obtenerUrl(id_boda) {
+        try {
+            var resultado = await conexion.obtenerUrl(id_boda);
+            return resultado;
+        } catch {
+            log.error();
+        }
+        
+    }
 
     // Obtener imagen de fondo
     obtenerUrlFondo(id_foto) {
         return new Promise((resolve, reject) => {
             conexion.query('select url from Fotos where id_foto = ?',
-                [id],
+                [id_foto],
                 (err, resultados) => {
                     console.log({resultados});
                     if (err) reject(err);
                     else resolve(resultados[0]);
                 });
         });
-    },
+    }
 
     // Comprobar usuario
     iniciarSesion(user, pass) {
@@ -38,7 +36,7 @@ module.exports = {
                     else resolve(resultados[0]);
                 });
         });
-    },
+    }
 
     // PARTE ADMINISTRADOR ---------------------------------------
 
@@ -52,8 +50,8 @@ module.exports = {
                     else resolve();
                 });
         });
-    },
-
+    }
+    
     // Borrar fotos
     borrarFotos(id_usuario) {
         return new Promise((resolve, reject) => {
@@ -65,5 +63,4 @@ module.exports = {
                     else resolve();
                 });
         });
-    },
-}
+    }*/
