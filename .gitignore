@@ -6,6 +6,7 @@
 .pnp.js
 
 .auth.json
+.bd.sql
 
 # testing
 /coverage

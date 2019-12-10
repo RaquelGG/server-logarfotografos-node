@@ -1,0 +1,19 @@
+{
+	"contacto" : {
+		"titulo" :"Logar Fotógrafos",
+		"subtitulo" : "Fotógrafos profesionales",
+
+		// Datos tabla
+		"direccion" : "C/Sol Nº5, Berja, Almería",
+		"direccionUrl" :  "",
+		"correo" :  "bodas@logarfotografos.es",
+		"telefono" :  "(+34) 689 13 77 01",
+		"whatsapp" :  "(+34) 609 41 04 71",
+		"facebook" :  "Logar fotógrafos",
+		"facebookUrl" :  "",
+		"bodasNet" :  "Logar fotógrafos",
+		"bodasNetUrl" : "",	
+
+	 	
+	}
+}
